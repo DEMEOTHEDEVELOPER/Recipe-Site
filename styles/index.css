@@ -1,13 +1,25 @@
 body {
   background-color: aliceblue;
+  font-family: Helvetica, Arial, sans-serif;
 }
 
-.recipe-image {
+footer {
+  color: white;
+  background-color: rgb(46, 46, 69);
+  padding: 10px;
+  text-align: center;
+}
+
+.recipe-image,
+.food-image {
   width: 300px;
   height: auto;
   border: 2px solid;
-  border-radius: 15px;
   border-color: black;
+}
+
+.recipe-image {
+  border-radius: 15px;
 }
 
 .recipe-grid {
@@ -16,4 +28,13 @@ body {
   column-gap: 10px;
   row-gap: 10px;
   align-items: center;
+}
+
+.food-image {
+  width: 300px;
+  height: auto;
+}
+
+.go-back {
+  color: aliceblue;
 }
